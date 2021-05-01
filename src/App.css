@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.Nav {
+  height: 100px;
+  width: 100%;
+  display: inline-flex;
+  background-color: rgb(15, 10, 10);
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.playnow {
+  height: 50px;
+  width: 140px;
+  border-radius: 5px;
+  background-color: rgb(243, 66, 35);
+  align-items: center;
+  display: inline-flex;
+  font-weight: bold;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.playnow:hover {
+  background-color: white;
+  color: black;
+}
+.riotgames {
+  font-size: larger;
+  text-transform: lowercase;
+}
+a {
+  color: rgb(243, 66, 35);
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+p {
+  margin-top: 100px;
+  font-size: larger;
+  margin-bottom: 50px;
+}
+
+.valo {
+  width: 50%;
+}
+
+.playfree {
+  height: 60px;
+  width: 250px;
   color: white;
+  margin-top: 30px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.playfree:hover {
+  background-color: grey;
+  color: white;
 }
