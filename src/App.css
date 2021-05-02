@@ -64,3 +64,76 @@ p {
   background-color: grey;
   color: white;
 }
+
+.Clips {
+  color: rgb(243, 66, 35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.valoimages {
+  justify-content: space-between;
+  height: 300px;
+  width: fit-content;
+  margin-top: 50px;
+}
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.size {
+  height: 250px;
+  width: 400px;
+  margin: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 125px;
+  border: 3px solid white;
+}
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #111111;
+  color: white;
+}
+.valologo {
+  height: 100px;
+  width: 200px;
+  margin-bottom: -50px;
+}
+.menu {
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.teen {
+  margin-bottom: 220px;
+  margin-top: 30px;
+}
+.bg {
+  position: absolute;
+  z-index: -1;
+}
+
+h3 {
+  margin-left: 30px;
+}
+
+.client {
+  margin-top: 300px;
+}
+
+.latest {
+  color: white;
+}
+.goto {
+  color: white;
+}
