@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/valo.ga/static/css/main.08247eeb.chunk.css",
+    "main.css": "/valo.ga/static/css/main.7b6b1ccd.chunk.css",
     "main.js": "/valo.ga/static/js/main.4c36aa2b.chunk.js",
     "main.js.map": "/valo.ga/static/js/main.4c36aa2b.chunk.js.map",
     "runtime-main.js": "/valo.ga/static/js/runtime-main.805a60f2.js",
@@ -10,13 +10,13 @@
     "static/js/3.fa71396c.chunk.js": "/valo.ga/static/js/3.fa71396c.chunk.js",
     "static/js/3.fa71396c.chunk.js.map": "/valo.ga/static/js/3.fa71396c.chunk.js.map",
     "index.html": "/valo.ga/index.html",
-    "static/css/main.08247eeb.chunk.css.map": "/valo.ga/static/css/main.08247eeb.chunk.css.map",
+    "static/css/main.7b6b1ccd.chunk.css.map": "/valo.ga/static/css/main.7b6b1ccd.chunk.css.map",
     "static/js/2.3b5930ab.chunk.js.LICENSE.txt": "/valo.ga/static/js/2.3b5930ab.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.805a60f2.js",
     "static/js/2.3b5930ab.chunk.js",
-    "static/css/main.08247eeb.chunk.css",
+    "static/css/main.7b6b1ccd.chunk.css",
     "static/js/main.4c36aa2b.chunk.js"
   ]
 }
