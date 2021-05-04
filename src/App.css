@@ -1,5 +1,8 @@
+html {
+  font-size: 62.5%;
+}
 .Nav {
-  height: 100px;
+  height: 10rem;
   width: 100%;
   display: inline-flex;
   background-color: rgb(15, 10, 10);
@@ -11,14 +14,14 @@
 }
 
 .logo {
-  height: 60px;
-  width: 60px;
+  height: 6rem;
+  width: 6rem;
   border-radius: 100%;
 }
 .playnow {
-  height: 50px;
-  width: 140px;
-  border-radius: 5px;
+  height: 5rem;
+  width: 14rem;
+  border-radius: 0.5rem;
   background-color: rgb(243, 66, 35);
   align-items: center;
   display: inline-flex;
@@ -43,11 +46,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 p {
-  margin-top: 100px;
+  margin-top: 10rem;
   font-size: larger;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .valo {
@@ -55,10 +59,10 @@ p {
 }
 
 .playfree {
-  height: 60px;
-  width: 250px;
+  height: 6rem;
+  width: 25rem;
   color: white;
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 .playfree:hover {
   background-color: grey;
@@ -66,9 +70,10 @@ p {
 }
 
 .Clips {
+  width: 100%;
   color: rgb(243, 66, 35);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -76,25 +81,25 @@ p {
 
 .valoimages {
   justify-content: space-between;
-  height: 300px;
+  height: 30rem;
   width: fit-content;
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 .images {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 .size {
-  height: 250px;
-  width: 400px;
-  margin: 20px;
-  border-radius: 10px;
+  height: 25rem;
+  width: 100%;
+  margin: 2rem;
+  border-radius: 1rem;
   color: white;
-  margin-top: 125px;
-  border: 3px solid white;
+  margin-top: 12.5rem;
+  border: 0.3rem solid white;
 }
 .Footer {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,31 +109,33 @@ p {
   color: white;
 }
 .valologo {
-  height: 100px;
-  width: 200px;
-  margin-bottom: -50px;
+  height: 10rem;
+  width: 20rem;
+  margin-bottom: -5rem;
 }
 .menu {
   width: 40%;
-  padding: 20px;
+  padding: 2rem;
   display: flex;
   justify-content: space-around;
 }
 .teen {
-  margin-bottom: 220px;
-  margin-top: 30px;
+  margin-bottom: 22rem;
+  margin-top: 3rem;
 }
 .bg {
   position: absolute;
   z-index: -1;
+  width: 100%;
+  height: max-content;
 }
 
 h3 {
-  margin-left: 30px;
+  margin-left: 3rem;
 }
 
 .client {
-  margin-top: 300px;
+  margin-top: 30rem;
 }
 
 .latest {
@@ -136,4 +143,15 @@ h3 {
 }
 .goto {
   color: white;
+}
+
+.size1 {
+  height: 25rem;
+  width: 40rem;
+  max-width: 100%;
+  margin: 2rem;
+  border-radius: 1rem;
+  margin-top: 7.5rem;
+  border: 0.3rem solid white;
+  margin-left: 3rem;
 }
