@@ -75,8 +75,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
+
+  overflow: hidden;
 }
 
 .valoimages {
@@ -88,10 +88,11 @@ p {
 .images {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .size {
   height: 25rem;
-  width: 100%;
+  width: 30rem;
   margin: 2rem;
   border-radius: 1rem;
   color: white;
@@ -154,4 +155,13 @@ h3 {
   margin-top: 7.5rem;
   border: 0.3rem solid white;
   margin-left: 3rem;
+}
+* {
+  overflow: auto;
+}
+
+h3 {
+  width: 30rem;
+
+  color: white;
 }
